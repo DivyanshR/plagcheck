@@ -1,0 +1,233 @@
+html{
+  font-size: 62.5%;
+}
+.student-home{
+position: relative;
+width: 100%;
+height: 80rem;
+
+background: linear-gradient(180deg, rgba(253, 255, 143, 0.188) 17.95%, rgba(0, 0, 0, 0) 100%), #FFFFFF;
+/* border: 1rem solid #73C8D3; */
+box-sizing: border-box;
+box-shadow: 0rem .4rem .4rem rgba(145, 224, 241, 0.66)
+}
+.Form{
+  z-index:1;
+  margin-top:6%;
+  
+}
+
+/* .logo {
+  display: grid;
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+} */
+
+
+
+.btn1{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1.5rem 4.8rem;
+
+position: absolute;
+width: 20.7rem;
+height: 6.5rem;
+left: 97.1rem;
+top: 10.8rem;
+
+background: #FFFFFF;
+box-shadow: 0rem .4rem .4rem rgba(0, 0, 0, 0.25);
+
+position: relative;
+left: 75.19%;
+right: 33.19%;
+top: 10.88%;
+bottom: 33.88%;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.5rem;
+/* identical to box height */
+color: #BDBF4D;
+/* background-color: #ffffff; */
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0rem 1rem; 
+}
+
+.List-text{
+  /* List of courses joined */
+
+display: block;
+position: relative;
+width: 29.3rem;
+height: 4.2rem;
+left: .4rem;
+top: 12rem;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.5rem;
+
+color: #070a05be;
+margin:10px;
+padding:10px;
+}
+
+.List-text2{
+  /* List of courses joined */
+
+display: block;
+position: relative;
+width: 29.3rem;
+height: 4.2rem;
+left: .4rem;
+top: 8rem;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.5rem;
+
+color: #070a05be;
+margin:10px;
+padding:10px;
+}
+
+/* .coursebox{
+
+position: absolute;
+width: 17.9rem;
+height: 3.5rem;
+left: 7.2rem;
+top: 38rem;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 40;
+font-size: 2.4rem;
+line-height: 3.5rem;
+/* identical to box height */
+
+
+/* color: #000000;
+
+  position: absolute;
+width: 122.6rem;
+height: 8.1rem;
+left: 5.2rem;
+top: 35.7rem;
+position: absolute;
+width: 14.9rem;
+height: 3.5rem;
+left: 7.2rem;
+top: 38rem;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 40;
+font-size: 2.4rem;
+line-height: 3.5rem;
+
+
+
+color: #000000;
+
+background: #FFFFFF;
+}  */
+
+.open_butt{
+position: relative;
+width: 12.1rem;
+height: 2rem;
+left: 80rem;
+top: 18rem;
+z-index: 11;
+background: #C4C4C4;
+
+  position: absolute;
+width: 12rem;
+height: 3.5rem;
+left: 80rem;
+top: 28rem;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 2.0rem;
+line-height: 3.5rem;
+
+/* background-color: #FFFFFF; */
+/* identical to box height */
+
+
+color: #0c0c0a;
+}
+
+.btn2{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2.3rem 2.5rem;
+
+position: relative;
+width: 27.9rem;
+height: 8.1rem;
+left: 9.9rem;
+top: 59.6rem;
+
+background: #FFFFFF;
+box-shadow: 0rem .4rem .4rem rgba(0, 0, 0, 0.25), 0rem .4rem .4rem rgba(0, 0, 0, 0.25);
+position: relative;
+left: 70.96%;
+right: 8.96%;
+top: 55.4%;
+bottom: 28.4%;
+
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 3.5rem;
+/* identical to box height */
+
+
+color: #AFB055;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 2rem 1rem;
+}
+
+.learning-image{
+  
+position: absolute;
+width: 44.4rem;
+height: 46.1rem;
+right: 5.2rem;
+top: 33rem;
+/* z-index: 0; */
+}
+  
+@media(max-width:998px) {
+  html {
+      font-size: 55%;
+  }
+
+}
